@@ -21,8 +21,24 @@ class PCA(object):
 
         self.n_components = n_components
 
-    def fit(self, X : np.ndarray):
+    def fit_transform(self, X : np.ndarray):
         """Fit the PCA algorithm into the Dataset"""
 
         if not self.n_components:
             self.n_components = min(X.shape)
+
+        self.covariance_ = np.cov(X.T)
+
+        # calculate eigens
+        self.eig_vals_, self.eig_vecs_ = np.linalg.eig(self.covariance_)
+        self.eig_pairs_ = [(np.abs(self.eig_vals_[i]), self.eig_vecs_[:, i]) for i in range(len(self.eig_vals_))]
+
+        # explained variance
+        _tot_eig_vals = sum(self.eig_vals_)
+        self.explained_variance_ = [(i / _tot_eig_vals) * 100 for i in sorted(self.eig_vals_, reverse = True)]
+        self.cum_explained_variance_ = np.cumsum(self.explained_variance_)
+
+        # define `W` as `d x k`-dimension
+        self.W_ = self.eig_vecs_[:, :self.n_components]
+
+        return X.dot(self.W_)
