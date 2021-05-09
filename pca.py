@@ -14,6 +14,23 @@ class PCA(object):
                          `n_samples` is the number of samples, and
                          `n_features` is the number of features (i.e.,
                          dimension of the dataset).
+
+    Attributes
+    ==========
+        :type  covariance_: np.ndarray
+        :param covariance_: Coviarance Matrix
+
+        :type  eig_vals_: np.ndarray
+        :param eig_vals_: Calculated Eigen Values
+
+        :type  eig_vecs_: np.ndarray
+        :param eig_vecs_: Calculated Eigen Vectors
+
+        :type  explained_variance_: np.ndarray
+        :param explained_variance_: Explained Variance of Each Principal Components
+
+        :type  cum_explained_variance_: np.ndarray
+        :param cum_explained_variance_: Cumulative Explained Variables
     """
 
     def __init__(self, n_components : int = None):
@@ -31,11 +48,11 @@ class PCA(object):
 
         # calculate eigens
         self.eig_vals_, self.eig_vecs_ = np.linalg.eig(self.covariance_)
-        self.eig_pairs_ = [(np.abs(self.eig_vals_[i]), self.eig_vecs_[:, i]) for i in range(len(self.eig_vals_))]
+        # self.eig_pairs_ = [(np.abs(self.eig_vals_[i]), self.eig_vecs_[:, i]) for i in range(len(self.eig_vals_))]
 
         # explained variance
         _tot_eig_vals = sum(self.eig_vals_)
-        self.explained_variance_ = [(i / _tot_eig_vals) * 100 for i in sorted(self.eig_vals_, reverse = True)]
+        self.explained_variance_ = np.array([(i / _tot_eig_vals) * 100 for i in sorted(self.eig_vals_, reverse = True)])
         self.cum_explained_variance_ = np.cumsum(self.explained_variance_)
 
         # define `W` as `d x k`-dimension
