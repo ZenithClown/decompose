@@ -58,4 +58,5 @@ class PCA(object):
         # define `W` as `d x k`-dimension
         self.W_ = self.eig_vecs_[:, :self.n_components]
 
+        print(X.shape, self.W_.shape)
         return X.dot(self.W_)
