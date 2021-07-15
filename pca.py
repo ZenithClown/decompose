@@ -15,22 +15,21 @@ class PCA(object):
                          `n_features` is the number of features (i.e.,
                          dimension of the dataset).
 
-    Attributes
-    ==========
-        :type  covariance_: np.ndarray
-        :param covariance_: Coviarance Matrix
+    :Attributes:
+    :type  covariance_: np.ndarray
+    :param covariance_: Coviarance Matrix
 
-        :type  eig_vals_: np.ndarray
-        :param eig_vals_: Calculated Eigen Values
+    :type  eig_vals_: np.ndarray
+    :param eig_vals_: Calculated Eigen Values
 
-        :type  eig_vecs_: np.ndarray
-        :param eig_vecs_: Calculated Eigen Vectors
+    :type  eig_vecs_: np.ndarray
+    :param eig_vecs_: Calculated Eigen Vectors
 
-        :type  explained_variance_: np.ndarray
-        :param explained_variance_: Explained Variance of Each Principal Components
+    :type  explained_variance_: np.ndarray
+    :param explained_variance_: Explained Variance of Each Principal Components
 
-        :type  cum_explained_variance_: np.ndarray
-        :param cum_explained_variance_: Cumulative Explained Variables
+    :type  cum_explained_variance_: np.ndarray
+    :param cum_explained_variance_: Cumulative Explained Variables
     """
 
     def __init__(self, n_components : int = None):
