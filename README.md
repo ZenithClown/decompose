@@ -10,17 +10,19 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td><a href = "https://www.linkedin.com/in/dpramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/linkedin.svg"/></a></td>
-				<td><a href = "https://github.com/ZenithClown"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/github.svg"/></a></td>
-				<td><a href = "https://gitlab.com/ZenithClown/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/gitlab.svg"/></a></td>
-				<td><a href = "https://www.researchgate.net/profile/Debmalya_Pramanik2"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/researchgate.svg"/></a></td>
-				<td><a href = "https://www.kaggle.com/dPramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/kaggle.svg"/></a></td>
-				<td><a href = "https://app.pluralsight.com/profile/Debmalya-Pramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/pluralsight.svg"/></a></td>
-				<td><a href = "https://stackoverflow.com/users/6623589/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/stackoverflow.svg"/></a></td>
-			</td></tr>
-			<tr><td>
-				<td><a href = "https://www.linkedin.com/in/arijit-baral-2a2b4819/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/linkedin.svg"/></a></td>
-				<td><a href = "https://scholar.google.com/citations?user=PYdjFe8AAAAJ&hl=en"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/googlescholar.svg"/></a></td>
+				<td>
+					<a href = "https://www.linkedin.com/in/dpramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/linkedin.svg"/></a>
+					<a href = "https://github.com/ZenithClown"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/github.svg"/></a>
+					<a href = "https://gitlab.com/ZenithClown/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/gitlab.svg"/></a>
+					<a href = "https://www.researchgate.net/profile/Debmalya_Pramanik2"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/researchgate.svg"/></a>
+					<a href = "https://www.kaggle.com/dPramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/kaggle.svg"/></a>
+					<a href = "https://app.pluralsight.com/profile/Debmalya-Pramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/pluralsight.svg"/></a>
+					<a href = "https://stackoverflow.com/users/6623589/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/stackoverflow.svg"/></a>
+				</td>
+				<td>
+					<a href = "https://www.linkedin.com/in/arijit-baral-2a2b4819/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/linkedin.svg"/></a>
+					<a href = "https://scholar.google.com/citations?user=PYdjFe8AAAAJ&hl=en"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/googlescholar.svg"/></a>
+				</td>
 			</tr>
 		</tbody>
 	</table>
@@ -38,20 +40,24 @@
 
 ## Figures
 
-<table align = "center">
-	<tbody>
-		<tr><img src = "./assets/figures/Figure 1 Two-Electrode Model for Capturing RV Data.jpeg" height = "128" width = "128" /></tr>
-		<tr><img src = "./assets/figures/Figure 2 Flowchart of RV Measurement using Two-Electrode Model.png" height = "128" width = "128" /></tr>
-		<tr><img src = "./assets/figures/Figure 3 RVM Spectrum of trf1.svg" height = "128" width = "128" /></tr>
-		<tr><img src = "./assets/figures/Figure 4 The Scree Plot representing the Percentage of Explained Variance of all the Individual Principal Components calculated from PCA considering all the Transformer Parameters.svg" height = "128" width = "128" /></tr>
-	</tbody>
-	<tbody>
-		<tr><img src = "./assets/figures/Figure 5 First Principal Component (PC-1) vs tan 𝛿.svg" height = "128" width = "128" /></tr>
-		<tr><img src = "./assets/figures/Figure 6 PC-1 against Dissipation Factor with Class Label based on User-Defined Boundaries.svg" height = "128" width = "128" /></tr>
-		<tr><img src = "./assets/figures/Figure 7 Proposed Curve to Estimate tan 𝛿 w.r.t. PC-1.svg" height = "128" width = "128" /></tr>
-		<tr><img src = "./assets/figures/Figure 8 Final Proposed Polynomial Equation to Determine tan 𝛿 considering an Error Band of 0.25 𝜎^2.svg" height = "128" width = "128" /></tr>
-	</tbody>
-</table>
+<p align = "center">
+<img src = "./assets/figures/Figure 1 Two-Electrode Model for Capturing RV Data.jpeg" /><br>
+Figure 1 Two-Electrode Model for Capturing RV Data<br><br>
+<img src = "./assets/figures/Figure 2 Flowchart of RV Measurement using Two-Electrode Model.png" /><br>
+Figure 2 Flowchart of RV Measurement using Two-Electrode Model<br><br>
+<img src = "./assets/figures/Figure 3 RVM Spectrum of trf1.svg" /><br>
+Figure 3 RVM Spectrum of trf1<br><br>
+<img src = "./assets/figures/Figure 4 The Scree Plot representing the Percentage of Explained Variance of all the Individual Principal Components calculated from PCA considering all the Transformer Parameters.svg" /><br>
+Figure 4 The Scree Plot representing the Percentage of Explained Variance of all the Individual Principal Components calculated from PCA considering all the Transformer Parameters<br><br>
+<img src = "./assets/figures/Figure 5 First Principal Component (PC-1) vs tan 𝛿.svg" /><br>
+Figure 5 First Principal Component (PC-1) vs tan 𝛿<br><br>
+<img src = "./assets/figures/Figure 6 PC-1 against Dissipation Factor with Class Label based on User-Defined Boundaries.svg" /><br>
+Figure 6 PC-1 against Dissipation Factor with Class Label based on User-Defined Boundaries<br><br>
+<img src = "./assets/figures/Figure 7 Proposed Curve to Estimate tan 𝛿 w.r.t. PC-1.svg" /><br>
+Figure 7 Proposed Curve to Estimate tan 𝛿 w.r.t. PC-1<br><br>
+<img src = "./assets/figures/Figure 8 Final Proposed Polynomial Equation to Determine tan 𝛿 considering an Error Band of 0.25 𝜎^2.svg" /><br>
+Figure 8 Final Proposed Polynomial Equation to Determine tan 𝛿 considering an Error Band of 0.25 𝜎^2<br><br>
+</p>
 
 ## License
 
