@@ -1,5 +1,6 @@
 <h1 align = "center">
-	decompose<img src = "./assets/LogoMakr-6pNJd4.png" height = "108" width = "200" align = "right" /><br><br>
+	decompose<img src = "./assets/LogoMakr-6pNJd4.png" height = "108" width = "200" align = "right" /><br>
+	<sup>(supplement code)</sup><br>
 	<table align = "center">
 		<!-- using TAB-SPACE = 2 - as long lines present -->
 		<thead>
@@ -65,6 +66,10 @@ This is licensed to &copy; Debmalya Pramanik, Arijit Baral [MIT License](LICENSE
 
 ## Credits & Reference
 
-<p align = "justify">Principal Component Analysis (PCA) tries to find the axes with the maximum variance <a href = "https://sebastianraschka.com/Articles/2014_pca_step_by_step.html">[1]</a>. The <code>decomposition.PCA()</code> function is written using the mathematical formulation and step-by-step guide provided by Sebastian Raschka.
+<p align = "justify">Principal Component Analysis (PCA) tries to find the axes with the maximum variance <a href = "https://sebastianraschka.com/Articles/2014_pca_step_by_step.html">[1]</a>. The <code>decomposition.PCA()</code> function is written using the mathematical formulation and step-by-step guide provided by Sebastian Raschka.</p>
 
 [1] Raschka, S. (2015). _Python Machine Learning_. Packt Publishing Ltd.
+
+## Additional Notes
+
+<p align = "justify">Paper is still under review and modifications, thus the content may change significantly.</p>
