@@ -1,35 +1,35 @@
 <h1 align = "center">
-	decompose<img src = "./assets/LogoMakr-6pNJd4.png" height = "108" width = "200" align = "right" /><br>
-	<sup>(supplement code)</sup><br>
-	<table align = "center">
-		<!-- using TAB-SPACE = 2 - as long lines present -->
-		<thead>
-			<tr>
-				<th><sub>Debmalya Pramanik</sub></th>
-				<th><sub>Dr. Arijit Baral</sub></th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>
-					<a href = "https://www.linkedin.com/in/dpramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/linkedin.svg"/></a>
-					<a href = "https://github.com/ZenithClown"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/github.svg"/></a>
-					<a href = "https://gitlab.com/ZenithClown/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/gitlab.svg"/></a>
-					<a href = "https://www.researchgate.net/profile/Debmalya_Pramanik2"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/researchgate.svg"/></a>
-					<a href = "https://www.kaggle.com/dPramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/kaggle.svg"/></a>
-					<a href = "https://app.pluralsight.com/profile/Debmalya-Pramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/pluralsight.svg"/></a>
-					<a href = "https://stackoverflow.com/users/6623589/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/stackoverflow.svg"/></a>
-				</td>
-				<td>
-					<a href = "https://www.linkedin.com/in/arijit-baral-2a2b4819/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/linkedin.svg"/></a>
-					<a href = "https://scholar.google.com/citations?user=PYdjFe8AAAAJ&hl=en"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/googlescholar.svg"/></a>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+  decompose<img src = "./assets/LogoMakr-6pNJd4.png" height = "108" width = "200" align = "right" /><br>
+  <sup>(supplement code)</sup><br>
+  <table align = "center">
+    <!-- using TAB-SPACE = 2 - as long lines present -->
+    <thead>
+      <tr>
+        <th><sub>Debmalya Pramanik</sub></th>
+        <th><sub>Dr. Arijit Baral</sub></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <a href = "https://www.linkedin.com/in/dpramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/linkedin.svg"/></a>
+          <a href = "https://github.com/ZenithClown"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/github.svg"/></a>
+          <a href = "https://gitlab.com/ZenithClown/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/gitlab.svg"/></a>
+          <a href = "https://www.researchgate.net/profile/Debmalya_Pramanik2"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/researchgate.svg"/></a>
+          <a href = "https://www.kaggle.com/dPramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/kaggle.svg"/></a>
+          <a href = "https://app.pluralsight.com/profile/Debmalya-Pramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/pluralsight.svg"/></a>
+          <a href = "https://stackoverflow.com/users/6623589/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/stackoverflow.svg"/></a>
+        </td>
+        <td>
+          <a href = "https://www.linkedin.com/in/arijit-baral-2a2b4819/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/linkedin.svg"/></a>
+          <a href = "https://scholar.google.com/citations?user=PYdjFe8AAAAJ&hl=en"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/googlescholar.svg"/></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </h1>
 
-<p align = "justify">A implementation of <i>Principal Component Analysis (PCA)</i> Algorithm for determining the Functional Age of Power Transformer, for the Paper Titled "<i>Reliable Estimation of Dissipation Factor of In-service Power Transformer</i>", by Debmalya Pramanik and Dr. Arijit Baral.</p>
+<p align = "justify">A implementation of <i>Principal Component Analysis (PCA)</i> Algorithm for determining the Functional Age of Power Transformer, for the Paper Titled "<i>Reliable Estimation of Dissipation Factor of In-service Power Transformer</i>", by Debmalya Pramanik (<a href = "https://orcid.org/0000-0002-3955-8170">ORCiD:0000-0002-3955-8170</a>) and Dr. Arijit Baral (<a href = "https://orcid.org/0000-0002-1905-9059">ORCiD:0000-0002-1905-9059</a>).</p>
 
 ## Abstract
 
