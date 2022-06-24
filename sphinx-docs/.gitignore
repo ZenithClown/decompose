@@ -1,0 +1,4 @@
+# sphinx auto generated files are ignored
+_build/
+_static/
+_templates/
