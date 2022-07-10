@@ -1,0 +1,33 @@
+# Generate a Citation Generator in GitHub Repository
+# https://github.com/joelparkerhenderson/github-special-files-and-paths#citationcff
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files
+
+cff-version: 1.2.0
+
+# show a user a general message when they click on `generate-citation`
+message: "An implementation of PCA from scratch. This is part of
+  supplimentary code. If you use this code, please cite it as below."
+
+# list of authors related to this code and/or research paper
+authors:
+  - family-names: "Pramanik"
+    given-names: "Debmalya"
+    orcid: "https://orcid.org/0000-0002-3955-8170"
+  - family-names: "Baral"
+    given-names: "Arijit"
+    orcid: "https://orcid.org/0000-0002-1905-9059"
+
+# title of the repository
+title: "decompose (PCA)"
+
+# specify a code version, this is not yet done
+version: None
+
+# if the software is publically available under `doi`
+doi: None
+
+# date of release of codes
+date-released: 2021-07-15
+
+# provide the code link, which is nothing but the repository link
+url: "https://github.com/ZenithClown/decompose"
