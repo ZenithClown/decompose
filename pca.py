@@ -2,6 +2,7 @@
 
 import numpy as np
 
+
 class PCA(object):
     """Dimension Reduction using Principal Component Analysis (PCA)
 
@@ -37,8 +38,17 @@ class PCA(object):
 
         self.n_components = n_components
 
-    def fit_transform(self, X : np.ndarray):
-        """Fit the PCA algorithm into the Dataset"""
+
+    def fit_transform(self, X : np.ndarray, **kwargs):
+        """
+        Fit the PCA algorithm into the Dataset
+
+        The input data is a n-dimensional vector of shape
+        `(<records>, <features>)` and the function transforms the
+        vector using the principles of PCA.
+        """
+
+        verbose = kwargs.get("verbose", True)
 
         if not self.n_components:
             self.n_components = min(X.shape)
@@ -57,5 +67,8 @@ class PCA(object):
         # define `W` as `d x k`-dimension
         self.W_ = self.eig_vecs_[:, :self.n_components]
 
-        print(X.shape, self.W_.shape)
+        if verbose:
+            # print the data shape to console when true
+            print(X.shape, self.W_.shape)
+
         return X.dot(self.W_)
