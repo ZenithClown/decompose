@@ -10,10 +10,10 @@
 # of precendence (if found later).
 * @ZenithClown
 
-# add mentor as also a contributor for the following files
+# add mentor as also a contributor for the following files (as comments)
 # @Arijit-Baral account does not yet exists, but is referenced
 # User Profile : https://scholar.google.com/citations?user=PYdjFe8AAAAJ&hl=en
 # check document header for more informations
-LICENSE      @Arijit-Baral
-README.md    @Arijit-Baral
-CITATION.cff @Arijit-Baral
+# LICENSE      @Arijit-Baral
+# README.md    @Arijit-Baral
+# CITATION.cff @Arijit-Baral
