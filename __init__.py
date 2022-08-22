@@ -7,11 +7,11 @@ __author_email__ = "Debmalya.18KT0018@ee.iitism.ac.in"
 
 __credits__      = None
 
-__status__       = "Development"
-__version__      = "0.1.0-develop"
+__status__       = "production"
+__version__      = "0.1.0"
 __docformat__    = "camelCasing"
 
 __copyright__    = "Copyright (c) 2021 Debmalya Pramanik, Arijit Baral"
 __affiliation__  = "Reliance Jio Platforms Ltd. | IIT Dhanbad"
 
-from .pca import PCA # Principal Component Analysis Algorithm
+from .pca import PCA # noqa: F401, F402
