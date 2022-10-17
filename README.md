@@ -35,11 +35,35 @@
 
 <p align = "justify">Insulation failure is a severe threat to high voltage equipment, and its protection using a reliable and efficient diagnostic tool has always been the interest to power utilities. Many traditional and newer techniques are available. Due to the complex aging process of oil-paper insulation, experts generally perform assessments after carefully evaluating measurement data. The paper presents a methodology to analyze recovery voltage measurement data to estimate aging sensitive performance parameters (dissipation factor).</p>
 
-## Keywords
+### Keywords
 
 <p align = "justify"><i>power transformer, dissipation factor, tan delta, return voltage, recovery voltage, central time constant, principal component analysis, regression, oil moisture, initial rate, machine learning, curve fitting</i></p>
 
 ## Figures
+
+<p align = "justify">Significant figures related to the paper is added here for reference. Images files are available <a href = "./assets/figures/">here</a>, and the overall flowchart of the proposed algorithm and PCA is created using <a href = "https://draw.io/">draw.io</a> founded by <i>Gaudenz Alder</i>.</p>
+
+<div align = "center">
+
+<table>
+  <thead>
+    <tr colspan = 3>lorem ipsum dolor</tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>image</td>
+      <td></td>
+      <td>image</td>
+    </tr>
+    <tr>
+      <td>image</td>
+      <td></td>
+      <td>image</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 <p align = "center">
   <img src = "./assets/figures/Figure 1 Two-Electrode Model for Capturing RV Data.jpeg" /><br>
