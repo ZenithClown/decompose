@@ -47,18 +47,58 @@
 
 <table>
   <thead>
-    <tr colspan = 3>lorem ipsum dolor</tr>
+    <tr colspan = 3><b><i>Significant Figures from Conference Paper</i></b></tr>
   </thead>
   <tbody>
+    <tr>
+      <td><img src = "./assets/figures/Figure 3 RVM Spectrum of trf1.svg" width = 512/></td>
+      <td></td>
+      <td><img src = "./assets/figures/Figure 4 The Scree Plot representing the Percentage of Explained Variance of all the Individual Principal Components calculated from PCA considering all the Transformer Parameters.svg" width = 512/></td>
+    </tr>
+    <tr>
+      <td><p align = "center"><b>Fig.:</b> RVM Spectrum of <i>trf1</i></p></td>
+      <td></td>
+      <td><p align = "center"><b>Fig.:</b> The <i>Scree Plot</i> to determine Optimal Components</p></td>
+    </tr>
     <tr>
       <td>image</td>
       <td></td>
       <td>image</td>
     </tr>
     <tr>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+      <td></td>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+    </tr>
+    <tr>
       <td>image</td>
       <td></td>
       <td>image</td>
+    </tr>
+    <tr>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+      <td></td>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+    </tr>
+    <tr>
+      <td>image</td>
+      <td></td>
+      <td>image</td>
+    </tr>
+    <tr>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+      <td></td>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+    </tr>
+    <tr>
+      <td>image</td>
+      <td></td>
+      <td>image</td>
+    </tr>
+    <tr>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+      <td></td>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
     </tr>
   </tbody>
 </table>
@@ -70,7 +110,7 @@
   Figure 1 Two-Electrode Model for Capturing RV Data<br><br>
   <!-- <img src = "./assets/figures/Figure 2 Flowchart of RV Measurement using Two-Electrode Model.png" /><br>
   Figure 2 Flowchart of RV Measurement using Two-Electrode Model<br><br> -->
-  <img src = "./assets/figures/Figure 3 RVM Spectrum of trf1.svg" /><br>
+  <br>
   Figure 2 RVM Spectrum of trf1<br><br>
   <img src = "./assets/figures/Figure 4 The Scree Plot representing the Percentage of Explained Variance of all the Individual Principal Components calculated from PCA considering all the Transformer Parameters.svg" /><br>
   Figure 3 The Scree Plot representing the Percentage of Explained Variance of all the Individual Principal Components calculated from PCA considering all the Transformer Parameters<br><br>
