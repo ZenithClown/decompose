@@ -35,18 +35,82 @@
 
 <p align = "justify">Insulation failure is a severe threat to high voltage equipment, and its protection using a reliable and efficient diagnostic tool has always been the interest to power utilities. Many traditional and newer techniques are available. Due to the complex aging process of oil-paper insulation, experts generally perform assessments after carefully evaluating measurement data. The paper presents a methodology to analyze recovery voltage measurement data to estimate aging sensitive performance parameters (dissipation factor).</p>
 
-## Keywords
+### Keywords
 
 <p align = "justify"><i>power transformer, dissipation factor, tan delta, return voltage, recovery voltage, central time constant, principal component analysis, regression, oil moisture, initial rate, machine learning, curve fitting</i></p>
 
 ## Figures
+
+<p align = "justify">Significant figures related to the paper is added here for reference. Images files are available <a href = "./assets/figures/">here</a>, and the overall flowchart of the proposed algorithm and PCA is created using <a href = "https://draw.io/">draw.io</a> founded by <i>Gaudenz Alder</i>.</p>
+
+<div align = "center">
+
+<table>
+  <thead>
+    <tr colspan = 3><b><i>Significant Figures from Conference Paper</i></b></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src = "./assets/figures/Figure 3 RVM Spectrum of trf1.svg" width = 512/></td>
+      <td></td>
+      <td><img src = "./assets/figures/Figure 4 The Scree Plot representing the Percentage of Explained Variance of all the Individual Principal Components calculated from PCA considering all the Transformer Parameters.svg" width = 512/></td>
+    </tr>
+    <tr>
+      <td><p align = "center"><b>Fig.:</b> RVM Spectrum of <i>trf1</i></p></td>
+      <td></td>
+      <td><p align = "center"><b>Fig.:</b> The <i>Scree Plot</i> to determine Optimal Components</p></td>
+    </tr>
+    <tr>
+      <td>image</td>
+      <td></td>
+      <td>image</td>
+    </tr>
+    <tr>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+      <td></td>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+    </tr>
+    <tr>
+      <td>image</td>
+      <td></td>
+      <td>image</td>
+    </tr>
+    <tr>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+      <td></td>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+    </tr>
+    <tr>
+      <td>image</td>
+      <td></td>
+      <td>image</td>
+    </tr>
+    <tr>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+      <td></td>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+    </tr>
+    <tr>
+      <td>image</td>
+      <td></td>
+      <td>image</td>
+    </tr>
+    <tr>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+      <td></td>
+      <td><p align = "center"><b>Fig.:</b> </p></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 <p align = "center">
   <img src = "./assets/figures/Figure 1 Two-Electrode Model for Capturing RV Data.jpeg" /><br>
   Figure 1 Two-Electrode Model for Capturing RV Data<br><br>
   <!-- <img src = "./assets/figures/Figure 2 Flowchart of RV Measurement using Two-Electrode Model.png" /><br>
   Figure 2 Flowchart of RV Measurement using Two-Electrode Model<br><br> -->
-  <img src = "./assets/figures/Figure 3 RVM Spectrum of trf1.svg" /><br>
+  <br>
   Figure 2 RVM Spectrum of trf1<br><br>
   <img src = "./assets/figures/Figure 4 The Scree Plot representing the Percentage of Explained Variance of all the Individual Principal Components calculated from PCA considering all the Transformer Parameters.svg" /><br>
   Figure 3 The Scree Plot representing the Percentage of Explained Variance of all the Individual Principal Components calculated from PCA considering all the Transformer Parameters<br><br>
