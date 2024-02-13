@@ -41,11 +41,14 @@ preferred-citation:
       given-names: "Arijit"
       orcid: "https://orcid.org/0000-0002-1905-9059"
   doi: "10.1109/MysuruCon55714.2022.9972517"
-  booktitle: "2022 IEEE 2nd Mysore Sub Section International Conference (MysuruCon), Mysuru, India, 2022"
-  month: 12
-  start: 1 # First page number
-  end: 6 # Last page number
   title: "Reliable Estimation of Dissipation Factor of In-service Power Transformer"
-  issue: 1
-  volume: 1
-  year: 2022
+  conference:
+    name: "2022 IEEE 2nd Mysore Sub Section International Conference (MysuruCon), Mysuru, India, 2022"
+    city: "Mysuru"
+    region: "Karnataka"
+    country: "India"
+    date-start: 2022-10-16
+    date-end: 2022-10-17
+
+# add additional notes like ieee document number
+notes: IEEE-CONF-9972517
