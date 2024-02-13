@@ -19,6 +19,7 @@
           <a href = "https://www.kaggle.com/dPramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/kaggle.svg"/></a>
           <a href = "https://app.pluralsight.com/profile/Debmalya-Pramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/pluralsight.svg"/></a>
           <a href = "https://stackoverflow.com/users/6623589/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/stackoverflow.svg"/></a>
+          <a href = "https://scholar.google.com/citations?user=GPHPApYAAAAJ&hl=en"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/googlescholar.svg"/></a>
         </td>
         <td>
           <a href = "https://www.linkedin.com/in/arijit-baral-2a2b4819/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/linkedin.svg"/></a>
