@@ -32,7 +32,7 @@ url: "https://github.com/ZenithClown/decompose"
 # the preferred citation describes the code base, but links to the actual
 # paper as preferred citations:
 preferred-citation:
-  type: inproceedings
+  type: conference-paper
   authors:
     - family-names: "Pramanik"
       given-names: "Debmalya"
