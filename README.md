@@ -131,9 +131,30 @@
   Figure 7 Final Proposed Polynomial Equation to Determine tan 𝛿 considering an Error Band of 0.25 𝜎^2<br><br>
 </p>
 
-## License
+## License & Citaitions
 
-This is licensed to &copy; Debmalya Pramanik, Arijit Baral [MIT License](LICENSE)
+This is licensed to &copy; Debmalya Pramanik, Arijit Baral [MIT License](LICENSE). If you find this document useful, please *cite the original paper* as (or refer to [citation](./CITATION.cff) file):
+
+### Paper/Plain Text Citations
+
+```
+D. Pramanik and A. Baral, "Reliable Estimation of Dissipation Factor of In-service Power Transformer," 2022 IEEE 2nd Mysore Sub Section International Conference (MysuruCon), Mysuru, India, 2022, pp. 1-6, doi: 10.1109/MysuruCon55714.2022.9972517.
+```
+
+### BibTex
+
+```latex
+@INPROCEEDINGS{9972517,
+  author={Pramanik, Debmalya and Baral, Arijit},
+  booktitle={2022 IEEE 2nd Mysore Sub Section International Conference (MysuruCon)}, 
+  title={Reliable Estimation of Dissipation Factor of In-service Power Transformer}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Voltage measurement;Fitting;Estimation;High-voltage techniques;Aging;Oil insulation;Reliability;power transformer;dissipation factor;tan delta;return voltage;recovery voltage;central time constant;principal component analysis;regression;oil moisture;initial rate;machine learning;curve fitting},
+  doi={10.1109/MysuruCon55714.2022.9972517}}
+```
 
 ## Credits & Reference
 
