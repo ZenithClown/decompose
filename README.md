@@ -40,6 +40,12 @@
 
 <p align = "justify"><i>power transformer, dissipation factor, tan delta, return voltage, recovery voltage, central time constant, principal component analysis, regression, oil moisture, initial rate, machine learning, curve fitting</i></p>
 
+<div align = "center">
+
+[![IEEE Conference Paper Link](https://img.shields.io/badge/📃-IEEE_Conference_Paper_Link-blue)](https://ieeexplore.ieee.org/document/9972517)
+
+</div>
+
 ## Figures
 
 <p align = "justify">Significant figures related to the paper is added here for reference. Images files are available <a href = "./assets/figures/">here</a>, and the overall flowchart of the proposed algorithm and PCA is created using <a href = "https://draw.io/">draw.io</a> founded by <i>Gaudenz Alder</i>.</p>
